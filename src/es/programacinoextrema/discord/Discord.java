@@ -28,12 +28,12 @@ public class Discord{
 	public static void main(String arg[]) {
 		//
 	    
-		RNN1 red=new RNN1();
+		/*RNN1 red=new RNN1();
 		red.iniciar();
 		
 		if(1==1) {
 			return ;
-		}
+		}*/
 		
 		final DiscordClient cliente=new DiscordClientBuilder(Configuracion.parametro("TOKEN")).build();
 		String patronMencionado="(<@!\\d*>) ?"; 
